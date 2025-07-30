@@ -265,6 +265,10 @@ body {
   gap: 1rem;
 }
 
+.card-content a{
+  text-decoration: none;
+}
+
 .card-text {
   color: white;
   font-size: 0.9rem;

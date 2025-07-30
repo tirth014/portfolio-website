@@ -68,12 +68,13 @@ export default function Hero() {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com/tirth014" target="_blank">
+            <motion.a href="https://github.com/tirth014" target="_blank" aria-label="Visit my GitHub">
               <i className="fab fa-github"></i>
             </motion.a>
             <motion.a
               href="https://www.linkedin.com/in/014tirth/"
               target="_blank"
+              aria-label="Visit my LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
             </motion.a>
@@ -109,8 +110,7 @@ export default function Hero() {
   traits: [
     "pixel-perfectionist",
     "clean-code craftsman",
-    "lazy-loading enthusiast",
-    "team-oriented thinker"
+    "team-player"
   ],
   missionStatement:
     "Turning ideas into interfaces and bugs into feature.",
@@ -124,8 +124,10 @@ export default function Hero() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="card-content">
-              <span className="card-icon">💻</span>
-              <span className="card-text">Working on something awesome!</span>
+              <a href="mailto:014tirth@gmail.com" aria-label="Send an email to Tirth">
+                <span className="card-icon">📧</span>
+                <span className="card-text">014tirth@gmail.com</span>
+              </a>
             </div>
           </motion.div>
         </motion.div>
