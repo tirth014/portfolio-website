@@ -58,7 +58,7 @@ export default function Hero() {
               View My Work
             </motion.a>
             <motion.a
-              href="#projects"
+              href="#contact"
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
