@@ -40,10 +40,13 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://time-ninja.vercel.app/", "_blank")
+          }
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: 'url("/projects/p1.jpg")' }}
+            style={{ backgroundImage: 'url("/projects/time-ninja.png")' }}
             whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
           />
           <h3>Time Ninja</h3>
@@ -64,17 +67,19 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://tic-tac-toe-ashen-zeta.vercel.app/", "_blank")
+          }
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: 'url("/projects/p1.jpg")' }}
+            style={{ backgroundImage: 'url("/projects/tictactoe.png")' }}
             whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
           />
-          <h3>Time Ninja</h3>
+          <h3>TicTacToe</h3>
           <p>
-            Timer-Based Challenge Game where players must stop a timer as close
-            as possible to a predetermined time, achieving scores based on
-            precision.
+            A simple and fun browser-based Tic Tac Toe game where two players
+            take turns trying to win on a 3x3 grid.{" "}
           </p>
           <div className="project-tech">
             <span>ReactJS</span>
@@ -88,13 +93,16 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://github.com/Capstone-2024-5/TechTinker/", "_blank")
+          }
         >
           <motion.div
             className="project-image"
-            style={{ backgroundImage: 'url("/projects/p1.jpg")' }}
+            style={{ backgroundImage: 'url("/projects/tech-tinker.png")' }}
             whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
           />
-          <h3>Time Ninja</h3>
+          <h3>Tech Tinker</h3>
           <p>
             Timer-Based Challenge Game where players must stop a timer as close
             as possible to a predetermined time, achieving scores based on
