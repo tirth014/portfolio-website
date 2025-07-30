@@ -101,7 +101,7 @@ export default function Hero() {
               style={vscDarkPlus}
             >{`const aboutMe: DeveloperProfile = {
   codename: "Tirth Vora",
-  origin: "From Kitchener",
+  origin: "Kitchener, ON",
   role: "Front-End Developer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL", "PHP"],
