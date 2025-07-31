@@ -124,12 +124,18 @@ export default function Contact() {
             whileTap={{ scale: 0.95 }}
             disabled={formStatus.submitting}
           >
-            {formStatus.submitting ? 'Sending...' : 'Send Message' }
+            {formStatus.submitting ? "Sending..." : "Send Message"}
           </motion.button>
 
-          {formStatus.message && 
-          <motion.div className={`form-status ${formStatus.success ? 'success' : 'error'}`}>
-            {formStatus.message}</motion.div>}
+          {formStatus.message && (
+            <motion.div
+              className={`form-status ${
+                formStatus.success ? "success" : "error"
+              }`}
+            >
+              {formStatus.message}
+            </motion.div>
+          )}
         </motion.form>
       </motion.div>
     </motion.section>

@@ -94,7 +94,10 @@ export default function Projects() {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
-            window.open("https://github.com/Capstone-2024-5/TechTinker/", "_blank")
+            window.open(
+              "https://github.com/Capstone-2024-5/TechTinker/",
+              "_blank"
+            )
           }
         >
           <motion.div
@@ -104,9 +107,10 @@ export default function Projects() {
           />
           <h3>Tech Tinker</h3>
           <p>
-            Timer-Based Challenge Game where players must stop a timer as close
-            as possible to a predetermined time, achieving scores based on
-            precision.
+            TechTinker is a STEM-focused platform offering affordable events,
+            flexible courses, and a STEM project store. With easy registration
+            and a user-friendly design, we make learning simple and accessible
+            for all.
           </p>
           <div className="project-tech">
             <span>ReactJS</span>

@@ -265,7 +265,7 @@ body {
   gap: 1rem;
 }
 
-.card-content a{
+.card-content a {
   text-decoration: none;
 }
 
@@ -531,8 +531,7 @@ body {
   left: 100%;
 }
 
-
-.form-status{
+.form-status {
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -540,23 +539,48 @@ body {
   font-weight: 500;
 }
 
-.form-status.success{
+.form-status.success {
   background: rgba(34, 197, 94, 0.1);
   border: 1px solid rgba(34, 197, 94, 0.2);
   color: green;
 }
 
-.form-status.error{
+.form-status.error {
   background: rgba(239, 68, 68 0.1);
   border: 1px solid rgba(239, 68, 68, 0.2);
   color: red;
 }
 
+.personal-info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
-.footer{
+.personal-info a {
+  text-decoration: none;
+}
+
+.footer {
   text-align: center;
   padding: 1rem;
   background: var(--background);
   color: var(--text-color);
   border-top: 1px solid var(--card-border);
+}
+
+.footer p {
+  font-size: 0.8rem;
+}
+
+.footer .social-links {
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.go-up-btn i {
+  font-size: 1.5rem;
+  color: var(--text-color);
 }

@@ -68,7 +68,11 @@ export default function Hero() {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com/tirth014" target="_blank" aria-label="Visit my GitHub">
+            <motion.a
+              href="https://github.com/tirth014"
+              target="_blank"
+              aria-label="Visit my GitHub"
+            >
               <i className="fab fa-github"></i>
             </motion.a>
             <motion.a
@@ -105,7 +109,9 @@ export default function Hero() {
   role: "Front-End Developer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL", "PHP"],
-    frameworks: ["React.js", "Node.js", "Express", "MongoDB", "GraphQL"],
+    frameworks: ["React.js", "Express", "GraphQL"],
+    databases: ["MongoDB", "MySQL", "PostgreSQL"],
+    devTools: ["Git", "Trello", "Vite", "Webpack"]
   },
   traits: [
     "pixel-perfectionist",
@@ -124,7 +130,10 @@ export default function Hero() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="card-content">
-              <a href="mailto:014tirth@gmail.com" aria-label="Send an email to Tirth">
+              <a
+                href="mailto:014tirth@gmail.com"
+                aria-label="Send an email to Tirth"
+              >
                 <span className="card-icon">📧</span>
                 <span className="card-text">014tirth@gmail.com</span>
               </a>
