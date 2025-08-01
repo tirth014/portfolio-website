@@ -41,6 +41,33 @@ export default function Projects() {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
+            window.open("https://tascape-ykqy.vercel.app/", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: 'url("/projects/tascape.png")' }}
+            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+          />
+          <h3>Tascape</h3>
+          <p>
+            Developed a Trello-like Kanban board application with drag-and-drop functionality using React
+             to manage tasks across custom
+            boards.
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>Tailwind</span>
+            <span>HTML5</span>
+            <span>JavaScript</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
             window.open("https://time-ninja.vercel.app/", "_blank")
           }
         >
@@ -80,37 +107,6 @@ export default function Projects() {
           <p>
             A simple and fun browser-based Tic Tac Toe game where two players
             take turns trying to win on a 3x3 grid.{" "}
-          </p>
-          <div className="project-tech">
-            <span>ReactJS</span>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() =>
-            window.open(
-              "https://github.com/Capstone-2024-5/TechTinker/",
-              "_blank"
-            )
-          }
-        >
-          <motion.div
-            className="project-image"
-            style={{ backgroundImage: 'url("/projects/tech-tinker.png")' }}
-            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
-          />
-          <h3>Tech Tinker</h3>
-          <p>
-            TechTinker is a STEM-focused platform offering affordable events,
-            flexible courses, and a STEM project store. With easy registration
-            and a user-friendly design, we make learning simple and accessible
-            for all.
           </p>
           <div className="project-tech">
             <span>ReactJS</span>
