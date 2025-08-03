@@ -40,6 +40,32 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open("https://oblivo.onrender.com/", "_blank")}
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: 'url("/projects/oblivio.png")' }}
+            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+          />
+          <h3>Oblivio</h3>
+          <p>
+            A responsive note-taking web app built with the MERN stack. Features
+            include creating, updating, and deleting notes. Implements a fully
+            functional REST API with rate limiting via Upstash Redis for
+            scalability.
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>DaisyUI (Tailwind)</span>
+            <span>MongoDB</span>
+            <span>Node</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
             window.open("https://tascape-ykqy.vercel.app/", "_blank")
           }
@@ -51,9 +77,8 @@ export default function Projects() {
           />
           <h3>Tascape</h3>
           <p>
-            Developed a Trello-like Kanban board application with drag-and-drop functionality using React
-             to manage tasks across custom
-            boards.
+            Developed a Trello-like Kanban board application with drag-and-drop
+            functionality using React to manage tasks across custom boards.
           </p>
           <div className="project-tech">
             <span>ReactJS</span>
