@@ -47,7 +47,7 @@ export default function Projects() {
             style={{ backgroundImage: 'url("/projects/oblivio.png")' }}
             whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
           />
-          <h3>Oblivio</h3>
+          <h3>Oblivo</h3>
           <p>
             A responsive note-taking web app built with the MERN stack. Features
             include creating, updating, and deleting notes. Implements a fully
