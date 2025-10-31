@@ -40,6 +40,33 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open("https://movie-app-6zdt.onrender.com/", "_blank")}
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: 'url("/projects/CineScope.png")' }}
+            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+          />
+          <h3>CineScope</h3>
+          <p>
+            A full-stack movie discovery app built with React, Node/Express, and
+            MongoDB that integrates TMDB for search and details. One-click
+            favourites, and a 5-tier “Trash → Gem” community rating bar with
+            mobile-first UI.
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>Tailwind</span>
+            <span>Zustand</span>
+            <span>MongoDB</span>
+            <span>Node</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() => window.open("https://oblivo.onrender.com/", "_blank")}
         >
           <motion.div

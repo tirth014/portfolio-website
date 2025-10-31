@@ -106,7 +106,7 @@ export default function Hero() {
             >{`const aboutMe: DeveloperProfile = {
   codename: "Tirth Vora",
   origin: "Kitchener, ON",
-  role: "Front-End Developer",
+  role: "Front-End/Full-Stack Developer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL", "PHP"],
     frameworks: ["React.js", "Express", "GraphQL"],
