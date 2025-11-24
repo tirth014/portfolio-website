@@ -40,7 +40,9 @@ export default function Projects() {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() => window.open("https://movie-app-6zdt.onrender.com/", "_blank")}
+          onClick={() =>
+            window.open("https://movie-app-6zdt.onrender.com/", "_blank")
+          }
         >
           <motion.div
             className="project-image"
@@ -94,32 +96,6 @@ export default function Projects() {
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           onClick={() =>
-            window.open("https://tascape-ykqy.vercel.app/", "_blank")
-          }
-        >
-          <motion.div
-            className="project-image"
-            style={{ backgroundImage: 'url("/projects/tascape.png")' }}
-            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
-          />
-          <h3>Tascape</h3>
-          <p>
-            Developed a Trello-like Kanban board application with drag-and-drop
-            functionality using React to manage tasks across custom boards.
-          </p>
-          <div className="project-tech">
-            <span>ReactJS</span>
-            <span>Tailwind</span>
-            <span>HTML5</span>
-            <span>JavaScript</span>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-          onClick={() =>
             window.open("https://time-ninja.vercel.app/", "_blank")
           }
         >
@@ -141,7 +117,31 @@ export default function Projects() {
             <span>JavaScript</span>
           </div>
         </motion.div>
-
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() =>
+            window.open("https://tascape-ykqy.vercel.app/", "_blank")
+          }
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: 'url("/projects/tascape.png")' }}
+            whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+          />
+          <h3>Tascape</h3>
+          <p>
+            Developed a Trello-like Kanban board application with drag-and-drop
+            functionality using React to manage tasks across custom boards.
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>Tailwind</span>
+            <span>HTML5</span>
+            <span>JavaScript</span>
+          </div>
+        </motion.div>
         <motion.div
           className="project-card"
           variants={fadeInUp}
