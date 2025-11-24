@@ -39,13 +39,14 @@ export default function Hero() {
             Tirth Vora
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
-            Front-end Developer
+            Full-Stack Developer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I'm a dedicated front-end developer based in Kitchener, ON. Whether
-            building sleek interfaces with React.js or optimizing user flows
-            with responsive CSS, I'm all about delivering seamless solutions
-            that resonate with users.
+            I'm a Full Stack Developer experienced in React, JavaScript,
+            TypeScript, Node, SQL, MongoDB, and PHP. Skilled in building responsive
+            single-page applications and collaborative in agile environments.
+            Committed to delivering innovative, data-driven solutions aligned
+            with business objectives.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
